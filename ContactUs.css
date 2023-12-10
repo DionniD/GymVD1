@@ -1,0 +1,185 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+.log{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-right: 25px;
+        width: 10%;
+        margin-left: 1%;
+    
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 88%;
+    justify-content: flex-end;
+    list-style: none;
+    margin-right: 20px;
+}
+ul li{
+        padding: 15px;
+        font-size: 1.2rem;
+        color: white;
+}
+a{
+        color: white;
+        text-decoration: none;
+}
+li:hover{
+      transition: all 0.2s  ease-in;  
+      background-color: rgb(66, 57, 57);      
+}
+.dmadh{
+    display: flex;
+    justify-content: center;
+    background-color: white; 
+    height: 90%;
+    width: 100%; 
+}
+.contact{
+    margin-top: 70px;
+    width: 100%;
+    height: 90%;
+    background-color: white;
+    display: flex;
+    flex-direction: row; 
+}
+.par{
+    margin-left: 100px;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+}
+.par h2{
+    font-size: 2.3rem;
+    color: black;
+}
+.par p{
+    margin-top: 20px;
+    font-size: 17px;
+}
+.dyte{
+    
+    width: 34%;
+    display: flex;
+    flex-direction: column;
+}
+.dyte h1{
+    font-size: 2.3rem;
+}
+.dyte p{
+    margin-top: 10px;
+}
+.dyte h2{
+    margin-top: 15px;
+}
+.tret{
+    background-color: black;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+   
+}
+form{
+    border-style: outset;
+    border-color: white;
+    
+    width: 170%;
+    align-items: center;
+}
+input{ 
+    margin-top: 50px;
+    margin-bottom: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: transparent;
+    width: 80%;
+    border-bottom: 1px solid white;
+    color: white;
+}
+::placeholder{
+    color: white;
+    font-size: 15px;
+}
+button{
+    margin-top: 15px;
+    background-color: white;
+    width: 130px;
+    height: 50px;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 16px;
+}
+.buton{
+    color: black;
+    font-size: 16px;
+}
+.buton:hover{
+    transition: all 0.2s  ease-in;  
+    background-color: rgb(119, 98, 98);  
+}
+.info{
+    
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    width: 100%;
+    flex-direction: row;
+    height: 60%;
+
+}
+.menyja{
+    margin-top: 75px;
+    height:  65%;
+    font-size: 25px;
+    margin-left: 10px;
+    color: white;
+}
+.menyja p {
+    line-height: 1.6;
+}
+.kontakti h3{
+    margin-top: 50px;
+    color: white;
+    font-size: 25px;
+}
+.kontakti{ 
+    color: white;
+}
+.kontakti p{
+    margin-top: 10px;
+    color: white;
+}
+.reklamacioni{
+    margin-top: 10px;
+    width: 100px;
+}
+.reklamacion h3{
+    color: white;
+    margin-top: 50px;
+    font-size: 25px;
+   
+}
+.fb{
+    margin-top: 15px;
+    height: 30px;
+}
+.ig{
+    height: 30px;
+}
+.tw{
+    height: 30px;
+}
