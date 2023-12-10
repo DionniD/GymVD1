@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+.lo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 25px;
+    width: 10%;
+    margin-left: 1%;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 88%;
+    justify-content: flex-end;
+    list-style: none;
+    margin-right: 20px;
+    }
+    ul li{
+        padding: 15px;
+        font-size: 1.2rem;
+        color: white;
+    }
+    ul li{
+        padding: 15px;
+        font-size: 1.2rem;
+        color: white;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    li:hover{
+      transition: all 0.2s  ease-in;  
+      background-color: rgb(66, 57, 57);
+      
+    }
+.produketmm{
+   display: flex;
+   flex-direction: row;
+   margin-left: 8%;
+   width: 84%;
+   justify-content: center;
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+.produketmm p{
+    padding-left: 520px;
+    color:black ;
+}
+
+.latestvideo button{
+    width: 25px;
+}
+.fotografit{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content:space-between ;
+    margin-left: 10%;
+    flex-wrap: wrap;
+}
+.rubrika{
+    width: fit-content;
+    height: fit-content;
+    margin-right: 10px;
+
+    
+}
+.rubrika img{
+    width: 100%;
+    height: 150px;
+    justify-content:space-between ;
+}
+.views_date{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3px;
+    margin-bottom: 13px;
+}
+.views_date{
+    justify-content: space-between;
+}
+.permifooter{
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.previous button{
+    cursor: pointer;
+    height: 25px;
+    border-radius: 10%;
+    width: 60px;
+}
+.numrat button{
+    cursor: pointer;
+    height: 25px;
+    width: 20px;
+}
+.NextPage button{
+    cursor: pointer;
+    background-color: lightseagreen;
+    height: 25px;
+    width: 70px;
+    border-radius: 10%;
+}
+footer{
+    background-color: lightgrey;
+}
+.sponz{
+    width: 100%;
+    background-color: black;
+    height: 14%;
+}
+.sponz h3{
+    color: white;
+}
+.info{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    width: 100%;
+    flex-direction: row;
+    height: 60%;
+
+}
+.menyja{
+    margin-top: 75px;
+    height:  65%;
+    font-size: 25px;
+    margin-left: 10px;
+    color: white;
+}
+.menyja p {
+    line-height: 1.6;
+}
+.kontakti h3{
+    margin-top: 40px;
+    color: white;
+    font-size: 25px;
+}
+.kontakti{ 
+    color: white;
+}
+.kontakti p{
+    margin-top: 10px;
+    color: white;
+}
+.reklamacioni{
+    margin-top: 20px;
+    width: 100px;
+}
+.reklamacion h3{
+    color: white;
+    margin-top: 40px;
+    font-size: 25px;
+   
+}
+.fb{
+    margin-top: 15px;
+    height: 25px;
+}
+.ig{
+    height: 25px;
+}
+.tw{
+    height: 25px;
+}

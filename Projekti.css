@@ -1,0 +1,308 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+nav{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+.lo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 25px;
+    width: 10%;
+    margin-left: 1%;
+}
+
+ul{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+width: 88%;
+justify-content: flex-end;
+list-style: none;
+margin-right: 20px;
+}
+
+ul li{
+    padding: 15px;
+    font-size: 1.2rem;
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+li:hover{
+  transition: all 0.2s  ease-in;  
+  background-color: rgb(66, 57, 57);
+  
+}
+.wallp{
+    position: relative;
+}
+.fit{
+    width: 100%;
+    height:100%;
+    display: block;
+}
+.motiv{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color:  orange;
+    padding: 0;
+    width: 80%;
+    justify-content: center;
+    
+}
+.motiv h1{
+    font-size: 55px;
+    color: wheat;
+    
+}
+.motiv2{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+h2{
+    text-align: center;
+    margin-top: 280px;
+    color: rgb(66, 57, 57);
+    font-size: 3rem;
+}
+h3{
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(129, 102, 102);
+    font-size: 2rem;
+}
+.info{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    width: 100%;
+    flex-direction: row;
+    height: 60%;
+
+}
+.menyja{
+    margin-top: 75px;
+    height:  65%;
+    font-size: 25px;
+    margin-left: 10px;
+    color: white;
+}
+.menyja p {
+    line-height: 1.6;
+}
+.kontakti h3{
+    margin-top: 40px;
+    color: white;
+    font-size: 25px;
+}
+.kontakti{ 
+    color: white;
+}
+.kontakti p{
+    margin-top: 10px;
+    color: white;
+}
+.reklamacioni{
+    margin-top: 20px;
+    width: 100px;
+}
+.reklamacion h3{
+    color: white;
+    margin-top: 40px;
+    font-size: 25px;
+   
+}
+.fb{
+    margin-top: 15px;
+    height: 25px;
+}
+.ig{
+    height: 25px;
+}
+.tw{
+    height: 25px;
+}
+.ofertat{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 27px;
+    margin-top: 30px;    
+}
+.oferta1{  
+    width: 20%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90%;
+}
+
+.oferta2{  
+    width: 20%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90%;
+}
+.oferta3{  
+    width: 20%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90%;
+}
+.oferta4{
+    width: 20%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90%;
+}
+.oferta1 h2{
+   margin-top: 35px;
+   font-size: 40px;
+}
+.oferta1 p{
+    text-align: center;
+    margin-top: 65px;
+    font-size: 19px;
+}
+.oferta1 h1{
+    font-size: 40px;
+    width: 70%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.oferta2 h2{
+    margin-top: 35px;
+    font-size: 40px;
+ }
+.oferta2 p{
+     text-align: center;
+     margin-top: 65px;
+     font-size: 19px;
+ }
+.oferta2 h1{
+     font-size: 40px;
+     width: 70%;
+     border: 1px solid black;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+.oferta3 h2{
+    margin-top: 35px;
+    font-size: 40px;
+ }
+.oferta3 p{
+     text-align: center;
+     margin-top: 65px;
+     font-size: 19px;
+ }
+.oferta3 h1{
+     font-size: 40px;
+     width: 70%;
+     border: 1px solid black;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+.oferta4 h2{
+    margin-top: 35px;
+    font-size: 40px;
+ }
+.oferta4 p{
+     text-align: center;
+     margin-top: 65px;
+     font-size: 19px;
+ }
+.oferta4 h1{
+     font-size: 40px;
+     width: 70%;
+     border: 1px solid black;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+.fm1{
+    margin-top: 10px;
+    height: 60px;
+}
+.fm2{
+    margin-top: 10px;
+    height: 60px;
+}
+.fm3{
+    margin-top: 10px;
+    height: 60px;
+}
+.fm4{
+    margin-top: 10px;
+    height: 60px;
+}
+.m1{
+    margin-top: 10px;
+    height: 60px;
+}
+.m2{
+    margin-top: 10px;
+    height: 60px;
+}
+.m3{
+    margin-top: 10px;
+    height: 60px;
+}
+.m4{
+    margin-top: 10px;
+    height: 60px;
+}
+.maps{
+    width: 100% ;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    
+}
+.maps h1{
+    font-size: 40px;
+    margin-top: 200px;
+    color: white;
+
+}
+.maps p{
+    font-size: 25px;
+    margin-top: 100px;
+    color: white;
+}
+.maps1 p{
+    margin-left: 15%;
+    margin-top: 150px;
+   
+}
