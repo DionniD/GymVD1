@@ -45,7 +45,7 @@ li:hover{
   background-color: rgb(66, 57, 57);
   
 }
-.F{
+.Fp{
     display: flex;
     width: 100%;
     height: 100%;
@@ -102,11 +102,10 @@ li:hover{
     width: 100%;
     height: 100%;
     background-color: black;
-    flex-direction: row;
-
-
+  
 }
-.motiv4 img{
+.fot{
+    margin-top: 60px;
     height: 80%;
     width: 100%;
     margin-left: 15%;
@@ -114,8 +113,94 @@ li:hover{
 }
 .thirrjet{
     color: aliceblue;
-    margin-left: 35%;
+    margin-left: 12%;
+    margin-top: 100px;
+    font-size: 23px;
+
+}
+.thirrjet p{
+    margin-top: 31px;
+    height: 40px;
+    margin-right: 70px;
+}
+.tret{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+   
+}
+button{
+    margin-top: 0%;
+    background-color: white;
+    width: 130px;
+    height: 50px;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 16px;
+    margin-left: 45%;
+}
+.buton{
+    color: black;
+    font-size: 16px;
+
+}
+.buton:hover{
+    transition: all 0.2s  ease-in;  
+    background-color: rgb(138, 126, 126);  
+}
+
+hr{
+    margin-top: 70px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    width: 100%;
+    flex-direction: row;
+    height: 60%;
+
+}
+.menyja{
+    margin-top: 75px;
+    height:  65%;
+    font-size: 25px;
+    margin-left: 10px;
+    color: white;
+}
+.menyja p {
+    line-height: 1.6;
+}
+.kontakti h3{
+    margin-top: 40px;
+    color: white;
+    font-size: 25px;
+}
+.kontakti{ 
+    color: white;
+}
+.kontakti p{
+    margin-top: 10px;
+    color: white;
+}
+.reklamacioni{
+    margin-top: 20px;
+    width: 100px;
+}
+.reklamacion h3{
+    color: white;
+    margin-top: 40px;
+    font-size: 25px;
+   
+}
+.fb{
     margin-top: 15px;
-    font-size: 18px;
-    
+    height: 25px;
+}
+.ig{
+    height: 25px;
+}
+.tw{
+    height: 25px;
 }
