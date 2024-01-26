@@ -27,14 +27,32 @@
        </ul>
     </nav>
 </header>
-    <div class="wallp"> 
-        <img src="main-1-1.jpg" alt="" class="fit">
+<div class="bgfoto" id="bgfotoDiv" style="background-image: url(main-1-1.jpg); background-size: 100%;">
     <divc class="motiv">
         <h1>| START TODAY |</h1>
         <p>FIGHT FOR THE BODY YOU DESERVE</p>
     
     </div>
 </div>
+<script>
+    let i = 0;
+    let bgfotoArray = ['main-1-1.jpg', 'slideshow13.jpg','slideshow12.jpg'];
+
+    function changeImg() {
+        let bgfotoDiv = document.getElementById('bgfotoDiv');
+
+        bgfotoDiv.style.backgroundImage = `url(${bgfotoArray[i]})`;
+
+        if (i < bgfotoArray.length - 1) {
+            i++;
+        } else {
+            i = 0;
+        }
+        setTimeout(changeImg, 5000);
+    }
+
+    window.onload = changeImg;
+</script>
 <div class="motiv2">
     <div class="f1"> 
         <h2>WHO WE ARE</h2>
@@ -147,7 +165,7 @@
             </div>
             <div class="kontakti">
                 <h3>CONTACT</h3>
-            <p>Adress: Rruga Xhevded Doda,</p>
+            <p>Adress: Rruga Xhevdet Doda,</p>
             <p>10000 Prishtinë, Republika e Kosovës </p>
             <p>Tel: +383 38 40 50 60 </p>
             <p>Web: www.vdfitness.eu</p> 
